@@ -13,6 +13,7 @@
 .container p{
     background-color: white;
     padding: 0 4% 0 0;
+    overflow: hidden;
 }
 
 .color-container, .font-container, .style-container{
@@ -22,6 +23,7 @@
     text-align: left;
     text-transform: none;
     color: black;
+    overflow: hidden;
 }
 .color{
     display: inline-block;
@@ -31,11 +33,11 @@
     margin: 16px;
     text-align: center;
     text-transform: uppercase;
+    overflow: hidden;
 }
 
 .color p{
     font-size: small;
-    padding: 2%;
 }
 
 .a1{
