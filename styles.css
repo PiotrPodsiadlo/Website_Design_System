@@ -1,42 +1,52 @@
 .container{
     border: black 1px solid;
-    margin: 20px;
+    margin: 24px;
+
     text-align: center;
     font-family: Gargi;
     font-weight: bold;
     font-size: large;
     text-transform: uppercase;
+    text-align: right;
 
 }
+.container p{
+    background-color: white;
+    padding: 0 4% 0 0;
+}
 
-.color-container{
-    padding: 30px 5px;
+.color-container, .font-container, .style-container{
+    padding: 24px 4px;
     display: block;
-    margin: auto 30px;
+    margin: auto 32px;
     text-align: left;
+    text-transform: none;
+    color: black;
 }
 .color{
     display: inline-block;
-    width: 20%;
-    height: 20%;
-    padding: 5%;
-    margin: 15px;
+    width: 16%;
+    height: 16%;
+    padding: 4%;
+    margin: 16px;
     text-align: center;
-    overflow: hidden;
+    text-transform: uppercase;
 }
 
 .color p{
     font-size: small;
-
+    padding: 2%;
 }
 
 .a1{
-    background-color: olive;
+    background-color: LightSeaGreen;
 }
+
 
 .a2{
     background-color: darkorchid;
 }
+
 
 .a3{
     background-color: cornflowerblue;
@@ -45,3 +55,54 @@
 .a4{
     background-color: fuchsia;
 }
+.font{
+    font-size: large;
+}
+
+.sahadeva{
+    font-family: Sahadeva;
+}
+
+.verdana{
+    font-family: Verdana;
+}
+
+.underline{
+    text-decoration-line: underline;
+}
+
+.line-throught{
+    text-decoration-line: line-through;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.styling{
+    font-size: small;
+    font-weight: normal;
+}
+
+.style-h1 p{
+    font-family: "Century Schoolbook L";
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.style-paragraph p{
+    font-family: Verdana;
+}
+
+.style-container li{
+    font-family: Arial;
+    font-size: small;
+    font-weight: lighter;
+}
+
+
+
